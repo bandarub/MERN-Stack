@@ -20,6 +20,7 @@ mongoose
 
 //Use routes
 app.use('/api/students',students);
+app.get('/',students);
 
 //Define port
 const port = process.env.PORT||5000;
