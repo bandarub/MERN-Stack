@@ -1,0 +1,106 @@
+.App{
+  width:90vw;
+  margin:0 auto;
+}
+.student{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-column-gap:3vw; 
+  margin:1vw auto;
+  padding-bottom: 1vw;  
+}
+.student img{
+  width:20.5vw;
+  height:20vw;
+  margin-bottom:2vw;
+  border:5px solid orange;
+}
+.img_wrap{
+  position: relative;
+  width:20vw;  
+  
+}
+.img_wrap .img__description{
+  position:absolute;
+  top: 70%;
+  width: 100%;
+  color:black;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+  visibility:hidden;
+  transition: 0.3s ease-in-out;
+}
+.img_wrap:hover{
+  opacity:0.5; 
+  
+}
+.img_wrap:hover .img__description{  
+visibility:visible;
+font-size: 2vw;
+font-weight: bolder;
+background-color: orange;
+}
+.student-details img{
+width:35vw;
+height:35vw;
+border-radius:50%;
+margin-top:7vw;
+border: 1px solid #ddd;
+padding: 5px;
+   
+}
+.student-read .student-heading label{
+  font-weight: bolder;
+  text-transform: capitalize;
+}
+.student-details{
+  width:80vw;
+  margin:0 auto;
+  height: 50vw;
+  overflow-y: scroll;
+}
+.student-details{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top:5vw;
+}
+.student-details li{
+  list-style: none;
+}
+.navigation{
+  display:grid;
+  grid-template-columns: 50% 50%;
+  width:50vw;
+  margin:0 auto;
+}
+.logo{
+  width:10vw;
+  margin-right:3vw;
+}
+.navigation button:hover,.navigation a:hover{
+  background-color: orange;
+  color:black;
+  text-decoration: none;
+  border:none;
+
+}
+.navigation button{
+  border:none;
+  height: 4vw;
+  width: 14vw;
+  border-radius: 0.7vw;
+  background-color: #223E4A;  
+  font-size: 1.5vw; 
+}
+.navigation a{
+  color:white;
+  height: 4vw;
+  width: 14vw;
+  border-radius: 0.7vw;  
+}
+.container a:hover{
+background-color: none;
+}
+
+
