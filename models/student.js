@@ -15,7 +15,8 @@ const StudentSchema = new Schema({
     favoriteQuote:String,
     joinedOn:String,
     src:String,
-    file:String
+    file:String,
+        
 });
 
 module.exports = Students =mongoose.model('Students',StudentSchema)

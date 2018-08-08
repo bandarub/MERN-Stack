@@ -104,3 +104,8 @@ background-color: none;
 }
 
 
+.invalid span{
+  color:red;
+  font-size: 12px;
+  font-weight: bold;
+}
