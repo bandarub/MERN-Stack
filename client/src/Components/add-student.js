@@ -129,7 +129,7 @@ return errors;
 
         <Modal isOpen={this.state.modal} toggle={this.toggle}>
         <ModalHeader toggle={this.toggle}>Add To Students List</ModalHeader>        
-            <form onSubmit={this.onSubmit} action='/' enctype="multipart/form-data" method="POST">
+            <form className='form' onSubmit={this.onSubmit} action='/' enctype="multipart/form-data" method="POST">
                 <div className={this.state.isTouched.firstName &&
                                 errors.firstName ? 'invalid' : ''
                                }>
