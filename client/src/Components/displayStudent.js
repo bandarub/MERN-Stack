@@ -29,7 +29,7 @@ class DisplayStudent extends Component{
       <div  className='student-read ' >           
             <p className="student-heading"><label>firstName:</label> {selctedStudent.firstName}</p>
             <p className="student-heading"><label>lastName:</label> {selctedStudent.lastName}</p>
-            <p className="student-heading"><label>Nationality:</label> {selctedStudent.Nationality}</p>
+            <p className="student-heading"><label>Nationality:</label> {selctedStudent.nationality}</p>
             <p className="student-heading"><label>title:</label> {selctedStudent.title}</p>
             <p className="student-heading"><label>Skills:</label>{(selctedStudent.skills).map(skill=><li key={Math.random()}>{skill}</li>)} </p>
             <p className="student-heading"><label>whySoftwareDeveloper:</label>{selctedStudent.whySoftwareDeveloper}</p>
