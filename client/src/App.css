@@ -1,28 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
 .App{
   width:90vw;
   margin:0 auto;
 }
 .student{
   display:grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr; 
-  grid-column-gap:3vw; 
+  grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+  grid-gap: 2vw;
   margin:1vw auto;
   padding-bottom: 1vw;  
 }
 .student img{
-  width:20.5vw;
-  height:20vw;
+  height: 250px;
+  width: 100%;
   margin-bottom:2vw;
   border:5px solid orange;
+  object-fit: cover;
 }
 .img_wrap{
   position: relative;
-  width:20vw;  
+  cursor: pointer;
+  /* width:20vw;   */
   
 }
 .img_wrap .img__description{
   position:absolute;
-  top: 70%;
+  top: 7vw;
   width: 100%;
   color:black;
   text-align: center;

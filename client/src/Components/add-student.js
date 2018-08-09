@@ -89,11 +89,11 @@ return errors;
           })
     }
 
-    onSubmit = (e)=>{
-        
+    onSubmit = (e)=>{        
 
         e.preventDefault();
         let {...data} = this.state;
+        console.log(data);
        
         const newStudent = new FormData();
      
@@ -129,7 +129,7 @@ return errors;
 
         <Modal isOpen={this.state.modal} toggle={this.toggle}>
         <ModalHeader toggle={this.toggle}>Add To Students List</ModalHeader>        
-            <form className='form' onSubmit={this.onSubmit} action='/' enctype="multipart/form-data" method="POST">
+            <form className='form' onSubmit={this.onSubmit} action='/' encType="multipart/form-data" method="POST">
                 <div className={this.state.isTouched.firstName &&
                                 errors.firstName ? 'invalid' : ''
                                }>

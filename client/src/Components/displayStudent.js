@@ -32,11 +32,11 @@ class DisplayStudent extends Component{
             <p className="student-heading"><label>Nationality:</label> {selctedStudent.Nationality}</p>
             <p className="student-heading"><label>title:</label> {selctedStudent.title}</p>
             <p className="student-heading"><label>Skills:</label>{(selctedStudent.skills).map(skill=><li key={Math.random()}>{skill}</li>)} </p>
-            <p className="student-heading"><label>whySoftwareDeveloper:</label> {selctedStudent.whySoftwareDeveloper}</p>
-            <p className="student-heading"><label> longTermVision:</label> {selctedStudent. longTermVision}</p>
-            <p className="student-heading"><label> longTermVision:</label> {selctedStudent. longTermVision}</p>
-            <p className="student-heading"><label> longTermVision:</label> {selctedStudent. longTermVision}</p>
-            <p className="student-heading"><label>joinedOn:</label> {selctedStudent.joinedOn}</p>
+            <p className="student-heading"><label>whySoftwareDeveloper:</label>{selctedStudent.whySoftwareDeveloper}</p>
+            <p className="student-heading"><label> longTermVision:</label>{selctedStudent. longTermVision}</p>
+            <p className="student-heading"><label> longTermVision:</label>{selctedStudent. longTermVision}</p>
+            <p className="student-heading"><label> longTermVision:</label>{selctedStudent. longTermVision}</p>
+            <p className="student-heading"><label>joinedOn:</label>{selctedStudent.joinedOn}</p>
                      
         </div>
     </div>

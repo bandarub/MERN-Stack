@@ -22,10 +22,10 @@ class StudentsList extends Component{
                 <div className = 'student'>           
                 {this.props.student.students.map((student) => 
                 <div  className='img_wrap' key={Math.random()} id= {student._id} onClick = {this.handleDisplay}>
-                <img id= {student._id} className='student-image' src ={student.src}/>
-                <div className='img__description'>
-                <p className='text' id= {student._id}>{student.firstName}</p>
-                </div>
+                    <img id= {student._id} className='student-image' src ={student.src}/>
+                    <div className='img__description'>
+                        <p className='text' id= {student._id}>{student.firstName}</p>
+                    </div>
                 </div>
                 )}
                 </div>

@@ -40,7 +40,7 @@ router.post('/',upload.single("file"),(req,res)=>{
     let src ='';          
         cloudinary.v2.uploader.upload(req.file.path, {public_id:`${req.body.firstName}`},
         function(error, result) {
-            console.log(result)
+       
             src = result.secure_url;
             let skillsArray = req.body.skills.split(',')
           
@@ -65,8 +65,7 @@ router.post('/',upload.single("file"),(req,res)=>{
                 .catch(err =>{
                     res.status(err.status >= 100 && err.status < 600 ? err.code : 500).send(err.message);
                 }); 
-            });
-    
+            });    
      
      
 })
