@@ -28,7 +28,7 @@
 }
 .img_wrap .img__description{
   position:absolute;
-  top: 7vw;
+  top: 50%;
   width: 100%;
   color:black;
   text-align: center;
@@ -43,7 +43,7 @@
 }
 .img_wrap:hover .img__description{  
 visibility:visible;
-font-size: 2vw;
+font-size: 0.5cm;
 font-weight: bolder;
 background-color: orange;
 }
