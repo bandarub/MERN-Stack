@@ -120,7 +120,8 @@ background-color: none;
     position: absolute;
     /* top: 6px;
     left:0; */
-    transition: all 200ms;    
+    transition: all 200ms;
+    opacity:0.5;    
     color:orange;
     font-weight: bolder;
 }
