@@ -12,8 +12,7 @@ export const getStudents = () => dispatch => {
   );
 };
 
-export const addStudent = (student) => dispatch => {
- 
+export const addStudent = (student) => dispatch => { 
   axios.post('/api/students', student)
   .then((res) =>{  
     dispatch({

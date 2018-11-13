@@ -11,13 +11,10 @@ import {
 class DisplayStudent extends Component{
     handleDelete = (e)=>{
         this.props.deleteStudent(e.target.id);
-        }
+    }
  
-  render(){
-     
-    // console.log(this.props)
-    const id = this.props.match.params.studentId;
-   
+  render(){     
+    const id = this.props.match.params.studentId;   
     const selctedStudent = this.props.getSingleStudent(id);
     return(<div>
         <div className='navigation'>

@@ -21,8 +21,7 @@ class Links extends Component{
 		for(let student of students){
 			if(student._id === id){
 				foundStudent = student;
-			}
-		
+			}		
     }	
 		return foundStudent;
     } 

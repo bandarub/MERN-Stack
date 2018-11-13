@@ -5,7 +5,7 @@ import {
     STUDENTS_LOADING
   } from '../actions/types';
 
-// import students from '../data_js';  
+// import students from '../data_js';  for loading students data initially
   
   const initialState = {
     students: [],
