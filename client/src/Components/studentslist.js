@@ -9,7 +9,6 @@ class StudentsList extends Component{
 
     componentDidMount() 
       {
-          console.log('component mounted')
           this.props.getStudents();        
       }
     handleDisplay = (e)=>{ 

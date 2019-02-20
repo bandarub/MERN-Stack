@@ -14,7 +14,8 @@ class DisplayStudent extends Component{
     }
  
   render(){     
-    const id = this.props.match.params.studentId;   
+    const id = this.props.match.params.studentId;
+    console.log(id)   
     const selctedStudent = this.props.getSingleStudent(id);
     return(<div>
         <div className='navigation'>
