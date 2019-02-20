@@ -32,7 +32,7 @@ import {Collapse,
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
                             <NavItem>
-                            <NavLink href="#">
+                            <NavLink href="https://github.com/bandarub/MERN-Stack">
                                 Github
                             </NavLink>
                             </NavItem>
